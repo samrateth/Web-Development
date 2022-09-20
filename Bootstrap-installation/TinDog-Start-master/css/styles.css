@@ -4,6 +4,7 @@ body {
 
 #title {
     background-color: #40ccce;
+    
 }
 
 h1 {
@@ -12,8 +13,19 @@ h1 {
     line-height: 1.5;
 }
 
+h2 {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+p{
+    font-family: "Ubuntu";
+    color: #8f8f8f;
+    padding: 0 25%;
+}
+
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 10%;
     
 }
 
@@ -48,4 +60,64 @@ h1 {
     width: 60%;
     transform: rotate(25deg);
     padding: 2.5rem;
+    position: absolute;
+    right: 30%;    
+}
+
+/* Features Section */
+.features-list {
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+}
+
+.fa-color {
+    color: #40ccce;
+    margin: 1rem;
+}
+
+.fa-color:hover {
+    color: #102169;
+}
+
+#features {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    
+}
+
+/* Testimonials section */
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #40ccce;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #40ccce;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px 20px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
 }
